@@ -1,6 +1,7 @@
 import streamlit as st
 import joblib
 import numpy as np
+import os
 
 # Load trained model
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -63,4 +64,5 @@ if st.button("Predict Loan Status"):
         st.success(f"✅ Loan Approved (Confidence: {probability:.2f})")
     else:
         st.error(f"❌ Loan Rejected (Confidence: {1-probability:.2f})")
+
 
