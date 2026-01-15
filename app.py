@@ -3,7 +3,10 @@ import joblib
 import numpy as np
 
 # Load trained model
-model = joblib.load("loan_model.pkl")
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+MODEL_PATH = os.path.join(BASE_DIR, "loan_model.pkl")
+
+model = joblib.load(MODEL_PATH)
 
 # App title
 st.title("🏦 Loan Approval Prediction App")
@@ -60,3 +63,4 @@ if st.button("Predict Loan Status"):
         st.success(f"✅ Loan Approved (Confidence: {probability:.2f})")
     else:
         st.error(f"❌ Loan Rejected (Confidence: {1-probability:.2f})")
+
