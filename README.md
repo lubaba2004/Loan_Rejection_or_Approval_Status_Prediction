@@ -93,7 +93,7 @@ The **best performing model** was selected based on **Test F1-Score and ROC-AUC*
 # Loan Approval Prediction App 💳
 
 ## 🚀 Live Demo
-👉 https://loan-rejection-or-approval-status-prediction.streamlit.app
+👉 [https://loan-rejection-or-approval-status-prediction.streamlit.app](https://loanrejectionorapprovalstatusprediction-8izyzzbubvdzvbtgwvt3au.streamlit.app/)
 
 ### Features:
 
