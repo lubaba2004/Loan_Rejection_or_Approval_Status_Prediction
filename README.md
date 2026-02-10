@@ -89,7 +89,11 @@ Models were evaluated using multiple metrics to ensure reliability:
 The **best performing model** was selected based on **Test F1-Score and ROC-AUC**.
 
 
-## 🚀 Streamlit Web Application
+
+# Loan Approval Prediction App 💳
+
+## 🚀 Live Demo
+👉 https://loan-rejection-or-approval-status-prediction.streamlit.app
 
 ### Features:
 
@@ -138,28 +142,8 @@ Loan_Rejection_or_Approval_Status_Prediction/
 
 **Lubaba N**
 
-# Loan Approval Prediction App 💳
 
-A machine learning–based Streamlit application that predicts whether a loan will be **approved or rejected** based on applicant details.
 
-## 🚀 Live Demo
-👉 https://loan-rejection-or-approval-status-prediction.streamlit.app
-
-## 📊 Features
-- User-friendly input form
-- Real-time loan approval prediction
-- Trained ML model integration
-
-## 🛠 Tech Stack
-- Python
-- Streamlit
-- Pandas
-- Scikit-learn
-
-## 📁 Project Files
-- app.py – Streamlit application
-- model.pkl – trained ML model
-- requirements.txt – dependencies
 
 
 
